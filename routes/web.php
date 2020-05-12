@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/{path?}', function () {
-    return view('dist.index');
+    return view('welcome');
 });
