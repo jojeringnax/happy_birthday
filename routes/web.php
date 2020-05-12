@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('src.index');
+Route::get('/{path?}', function () {
+    return view('dist.index');
 });
